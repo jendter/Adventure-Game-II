@@ -1,0 +1,288 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		27EF951F1B2C80B600C4C6D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EF951E1B2C80B600C4C6D4 /* main.m */; };
+		27EF952F1B2C80D100C4C6D4 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EF95261B2C80D100C4C6D4 /* Player.m */; };
+		27EF95301B2C80D100C4C6D4 /* Room.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EF95281B2C80D100C4C6D4 /* Room.m */; };
+		27EF95311B2C80D100C4C6D4 /* ObjectInRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EF952A1B2C80D100C4C6D4 /* ObjectInRoom.m */; };
+		27EF95321B2C80D100C4C6D4 /* Cube.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EF952C1B2C80D100C4C6D4 /* Cube.m */; };
+		27EF95331B2C80D100C4C6D4 /* Treasure.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EF952E1B2C80D100C4C6D4 /* Treasure.m */; };
+		27EF95361B2C80F900C4C6D4 /* previousMain.c in Sources */ = {isa = PBXBuildFile; fileRef = 27EF95341B2C80F900C4C6D4 /* previousMain.c */; };
+		27EF95391B2C81BD00C4C6D4 /* Coordinates.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EF95381B2C81BD00C4C6D4 /* Coordinates.m */; };
+		27EF953C1B2C868600C4C6D4 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EF953B1B2C868600C4C6D4 /* Game.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		27EF95191B2C80B600C4C6D4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		27EF951B1B2C80B600C4C6D4 /* Adventure Game Part II */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Adventure Game Part II"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27EF951E1B2C80B600C4C6D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		27EF95251B2C80D100C4C6D4 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		27EF95261B2C80D100C4C6D4 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		27EF95271B2C80D100C4C6D4 /* Room.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
+		27EF95281B2C80D100C4C6D4 /* Room.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Room.m; sourceTree = "<group>"; };
+		27EF95291B2C80D100C4C6D4 /* ObjectInRoom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ObjectInRoom.h; sourceTree = "<group>"; };
+		27EF952A1B2C80D100C4C6D4 /* ObjectInRoom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ObjectInRoom.m; sourceTree = "<group>"; };
+		27EF952B1B2C80D100C4C6D4 /* Cube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cube.h; sourceTree = "<group>"; };
+		27EF952C1B2C80D100C4C6D4 /* Cube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cube.m; sourceTree = "<group>"; };
+		27EF952D1B2C80D100C4C6D4 /* Treasure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Treasure.h; sourceTree = "<group>"; };
+		27EF952E1B2C80D100C4C6D4 /* Treasure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Treasure.m; sourceTree = "<group>"; };
+		27EF95341B2C80F900C4C6D4 /* previousMain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = previousMain.c; sourceTree = "<group>"; };
+		27EF95371B2C81BD00C4C6D4 /* Coordinates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coordinates.h; sourceTree = "<group>"; };
+		27EF95381B2C81BD00C4C6D4 /* Coordinates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coordinates.m; sourceTree = "<group>"; };
+		27EF953A1B2C868600C4C6D4 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		27EF953B1B2C868600C4C6D4 /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27EF95181B2C80B600C4C6D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		27EF95121B2C80B600C4C6D4 = {
+			isa = PBXGroup;
+			children = (
+				27EF951D1B2C80B600C4C6D4 /* Adventure Game Part II */,
+				27EF951C1B2C80B600C4C6D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		27EF951C1B2C80B600C4C6D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				27EF951B1B2C80B600C4C6D4 /* Adventure Game Part II */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		27EF951D1B2C80B600C4C6D4 /* Adventure Game Part II */ = {
+			isa = PBXGroup;
+			children = (
+				27EF951E1B2C80B600C4C6D4 /* main.m */,
+				27EF953A1B2C868600C4C6D4 /* Game.h */,
+				27EF953B1B2C868600C4C6D4 /* Game.m */,
+				27EF95341B2C80F900C4C6D4 /* previousMain.c */,
+				27EF95271B2C80D100C4C6D4 /* Room.h */,
+				27EF95281B2C80D100C4C6D4 /* Room.m */,
+				27EF95371B2C81BD00C4C6D4 /* Coordinates.h */,
+				27EF95381B2C81BD00C4C6D4 /* Coordinates.m */,
+				27EF95291B2C80D100C4C6D4 /* ObjectInRoom.h */,
+				27EF952A1B2C80D100C4C6D4 /* ObjectInRoom.m */,
+				27EF952B1B2C80D100C4C6D4 /* Cube.h */,
+				27EF952C1B2C80D100C4C6D4 /* Cube.m */,
+				27EF952D1B2C80D100C4C6D4 /* Treasure.h */,
+				27EF952E1B2C80D100C4C6D4 /* Treasure.m */,
+				27EF95251B2C80D100C4C6D4 /* Player.h */,
+				27EF95261B2C80D100C4C6D4 /* Player.m */,
+			);
+			path = "Adventure Game Part II";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		27EF951A1B2C80B600C4C6D4 /* Adventure Game Part II */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27EF95221B2C80B600C4C6D4 /* Build configuration list for PBXNativeTarget "Adventure Game Part II" */;
+			buildPhases = (
+				27EF95171B2C80B600C4C6D4 /* Sources */,
+				27EF95181B2C80B600C4C6D4 /* Frameworks */,
+				27EF95191B2C80B600C4C6D4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Adventure Game Part II";
+			productName = "Adventure Game Part II";
+			productReference = 27EF951B1B2C80B600C4C6D4 /* Adventure Game Part II */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		27EF95131B2C80B600C4C6D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Josh Endter";
+				TargetAttributes = {
+					27EF951A1B2C80B600C4C6D4 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = 27EF95161B2C80B600C4C6D4 /* Build configuration list for PBXProject "Adventure Game Part II" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 27EF95121B2C80B600C4C6D4;
+			productRefGroup = 27EF951C1B2C80B600C4C6D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				27EF951A1B2C80B600C4C6D4 /* Adventure Game Part II */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		27EF95171B2C80B600C4C6D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27EF953C1B2C868600C4C6D4 /* Game.m in Sources */,
+				27EF95321B2C80D100C4C6D4 /* Cube.m in Sources */,
+				27EF95311B2C80D100C4C6D4 /* ObjectInRoom.m in Sources */,
+				27EF95331B2C80D100C4C6D4 /* Treasure.m in Sources */,
+				27EF95391B2C81BD00C4C6D4 /* Coordinates.m in Sources */,
+				27EF95301B2C80D100C4C6D4 /* Room.m in Sources */,
+				27EF95361B2C80F900C4C6D4 /* previousMain.c in Sources */,
+				27EF952F1B2C80D100C4C6D4 /* Player.m in Sources */,
+				27EF951F1B2C80B600C4C6D4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		27EF95201B2C80B600C4C6D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		27EF95211B2C80B600C4C6D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		27EF95231B2C80B600C4C6D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		27EF95241B2C80B600C4C6D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27EF95161B2C80B600C4C6D4 /* Build configuration list for PBXProject "Adventure Game Part II" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27EF95201B2C80B600C4C6D4 /* Debug */,
+				27EF95211B2C80B600C4C6D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		27EF95221B2C80B600C4C6D4 /* Build configuration list for PBXNativeTarget "Adventure Game Part II" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27EF95231B2C80B600C4C6D4 /* Debug */,
+				27EF95241B2C80B600C4C6D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 27EF95131B2C80B600C4C6D4 /* Project object */;
+}
