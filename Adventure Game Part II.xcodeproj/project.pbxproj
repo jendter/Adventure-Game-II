@@ -13,7 +13,6 @@
 		27EF95311B2C80D100C4C6D4 /* ObjectInRoom.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EF952A1B2C80D100C4C6D4 /* ObjectInRoom.m */; };
 		27EF95321B2C80D100C4C6D4 /* Cube.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EF952C1B2C80D100C4C6D4 /* Cube.m */; };
 		27EF95331B2C80D100C4C6D4 /* Treasure.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EF952E1B2C80D100C4C6D4 /* Treasure.m */; };
-		27EF95361B2C80F900C4C6D4 /* previousMain.c in Sources */ = {isa = PBXBuildFile; fileRef = 27EF95341B2C80F900C4C6D4 /* previousMain.c */; };
 		27EF95391B2C81BD00C4C6D4 /* Coordinates.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EF95381B2C81BD00C4C6D4 /* Coordinates.m */; };
 		27EF953C1B2C868600C4C6D4 /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 27EF953B1B2C868600C4C6D4 /* Game.m */; };
 /* End PBXBuildFile section */
@@ -43,7 +42,6 @@
 		27EF952C1B2C80D100C4C6D4 /* Cube.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cube.m; sourceTree = "<group>"; };
 		27EF952D1B2C80D100C4C6D4 /* Treasure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Treasure.h; sourceTree = "<group>"; };
 		27EF952E1B2C80D100C4C6D4 /* Treasure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Treasure.m; sourceTree = "<group>"; };
-		27EF95341B2C80F900C4C6D4 /* previousMain.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = previousMain.c; sourceTree = "<group>"; };
 		27EF95371B2C81BD00C4C6D4 /* Coordinates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coordinates.h; sourceTree = "<group>"; };
 		27EF95381B2C81BD00C4C6D4 /* Coordinates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coordinates.m; sourceTree = "<group>"; };
 		27EF953A1B2C868600C4C6D4 /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
@@ -83,7 +81,6 @@
 				27EF951E1B2C80B600C4C6D4 /* main.m */,
 				27EF953A1B2C868600C4C6D4 /* Game.h */,
 				27EF953B1B2C868600C4C6D4 /* Game.m */,
-				27EF95341B2C80F900C4C6D4 /* previousMain.c */,
 				27EF95271B2C80D100C4C6D4 /* Room.h */,
 				27EF95281B2C80D100C4C6D4 /* Room.m */,
 				27EF95371B2C81BD00C4C6D4 /* Coordinates.h */,
@@ -162,7 +159,6 @@
 				27EF95331B2C80D100C4C6D4 /* Treasure.m in Sources */,
 				27EF95391B2C81BD00C4C6D4 /* Coordinates.m in Sources */,
 				27EF95301B2C80D100C4C6D4 /* Room.m in Sources */,
-				27EF95361B2C80F900C4C6D4 /* previousMain.c in Sources */,
 				27EF952F1B2C80D100C4C6D4 /* Player.m in Sources */,
 				27EF951F1B2C80B600C4C6D4 /* main.m in Sources */,
 			);
@@ -281,6 +277,7 @@
 				27EF95241B2C80B600C4C6D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
